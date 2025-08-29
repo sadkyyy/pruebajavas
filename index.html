@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src=
+"https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Conversor de monedas</title>
+</head>
+<body>
+    <h1>Conversor de monedas</h1>
+    <div class="contenedor"> 
+        <p> Pesos CLP</p>
+        <input type="text" id="pesos" placeholder="Pesos CLP">
+         <p>  Moneda a convertir: </p>
+         <select id="moneda">
+   <option value="dolar">Dolar</option>
+   <option value="peso">Peso</option>
+   <option value="euro">Euro</option>
+         </select>
+
+         <button class="Buscar" id="btnBuscar">Buscar</button>
+         <p id="resultado"> Resultado: </p>
+           <div class="monedasSection"></div>
+    </div>
+    
+<div class= "grafica">
+<canvas id="myChart"></canvas>
+</div>
+
+    <script src="./assets/javas/javas.js"></script>
+</body>
+</html>
